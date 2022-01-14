@@ -12,7 +12,8 @@ Card type descriminators describe the deck, name descriminators enumarate versio
 
 1. `card.action/reveal_prototype`
 1. `card.action/sabotage`
-1. `card.secret/become_a_martyr`
+1. `card.action.codex1/war_machine`
+1. `card.secret.pok/become_a_martyr`
 1. `card.promissory.white/ceasefire`
 1. `card.promissory.arborec/stymie.omega`
 1. `card.technology.white/plasma_scoring`
