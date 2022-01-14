@@ -1,4 +1,4 @@
-Proposal: namespace-like string id for object metadata.
+## Proposal: namespace-like string id for object metadata.
 
 TTPG object templates have a "metadata" field containing a user-defined string.  Instead of JSON, I propose a simple namespace-like string.  
 
@@ -53,3 +53,7 @@ Bags are a little tricky.  Maybe prefix the content with bag:
 Decks should not be given ids because they may exhaust and re-form.  If decks had an id inherited from a starting card both the deck and discard would share it.
 
 Note the `unit.white/my_homebrew_thing`.  Homebrew could inject new unit types (whole new, second flagship, etc) to expand unit detection.
+
+## Why not use id?
+
+The object is also a string, however copy/paste will almost certainly generate a random id whereas the template id is preserved.
